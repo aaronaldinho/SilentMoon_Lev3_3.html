@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            background-image: url(https://i.picsum.photos/id/270/800/600.jpg?hmac=EPNA6j5PiF_XMsS0jtVBZ7c242zQRtjOIgWPlOo0Ovw);
+        }
+        /* use em values for the top and right values of the close button */
+        
+        #modal {
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-color: #F62B54;
+            padding: 4em;
+            transform: translate(-50%, -50%);
+            width: 10em;
+            height: 15em;
+            border-radius: 2em;
+            float: right;
+        }
+        
+        .error {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        
+        span {
+            position: absolute;
+            right: 1.2em;
+            top: 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>
+            <div id="modal">
+                <h1>ERROR!</h1>
+                <span>X</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus accusantium incidunt deserunt eos, autem exercitationem libero provident assumenda mollitia quod tempora laboriosam, magni eveniet fuga voluptatem veniam praesentium ullam.
+                    Quibusdam!
+                </p>
+                <input type="email" form="Email">
+                <div class="error">
+
+
+                </div>
+            </div>
+    </section>
+
+</body>
+
+</html>
